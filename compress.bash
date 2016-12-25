@@ -2,7 +2,7 @@
 
 # Authors - Neil "regalstreak" Agarwal, Harsh "MSF Jarvis" Shandilya, Tarang "DigiGoon" Kagathara
 # 2016
-# This file is used to run skadoo.sh easily. 
+# This file is used to run skadoo.sh easily.
 # Can also be configured with a webhook along with automation as regalstreak and msf-jarvis have done.
 
 
@@ -10,37 +10,17 @@
 
 # Name of the ROM. No Spaces Please.
 # Example: CyanogenMod
-
-name=PureNexusProject
+name=ZephyrOS
 
 
 # Manifest link. https:// is mandatory.
 # Example: https://github.com/cyanogenmod/android
-
-manifest=https://github.com/PureNexusProject/manifest
-
+manifest=https://github.com/Zephyr-OS/manifest
 
 # Manifest branch.
 # Example: cm-14.0
 
-branch=n
-
-
-### Compression Configuration ###
-
-# Change the value only if you know what these are.
-# Default is true for both.
-
-# compressrepo
-# If true, will compress the .repo folder.
-
-export compressrepo=true
-
-
-# compressnorepo
-# If true, will compress the stuff except for the .repo folder
-export compressnorepo=true
-
+branch=zephyr-N
 
 ### Finally, execute the stuff. ###
 
